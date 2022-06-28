@@ -184,10 +184,9 @@
         padding: 0 30px;
     }
     
-    .header_bg{
-     padding-top: 20px;
-     padding-bottom: 80px;
-        
+    .header_list
+    {
+        height: 65vh;
     }
     
     
