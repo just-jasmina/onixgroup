@@ -163,8 +163,8 @@
 
 .header_content a:hover
 {
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
 }
 
 .liner
@@ -442,116 +442,7 @@
 }
 
 
-.contact h1
-{
-    color: rgb(0, 0, 0);
-    font-size: 54px;
-    margin-bottom: 30px;
-    font-family: SI;
-    text-align: center;
-}
-
-.contact_info p
-{
-    color: black;
-    font-size: 16px;
-
-}
-
-.contact_info
-{
-    padding:15px;
-    background-color: yellow;
-    display: flex;  
-    height: 400px;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 8px;
-    gap: 15px;
-    position: absolute;
-}
-
-.contact
-{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.number
-{
-    color: black;
-    display: flex;
-    gap: 20px;
-}
-
-.number i 
-{
-    font-size: 24px;
-}
-
-.number a
-{
-    color: black;
-}
-
-
-
-.adress
-{
-    color: black;
-    display: flex;
-    gap: 15px;
-}
-
-.adress i
-{
-    font-size: 24px;
-}
-
-.info
-{
-    display: flex;
-    gap: 30px;
-    padding-left: 20px;
-    padding-top: 70px;
-}
-
-.info a
-{
-    color: black;
-    transition: 0.5s;
-}
-
-.info a:hover
-{
-    color: blue;
-}
-
-.info i
-{
-    font-size: 30px;
-}
-
-.mail
-{
-    display: flex;
-    gap: 15px;
-}
-
-.mail i
-{
-    color: black;
-    font-size: 24px;
-}
-
-.contact_one
-{
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
-    padding-bottom: 50px;
-}
+ 
 
 .contact_one iframe
 {
@@ -664,7 +555,6 @@
 {
     box-shadow: 0 0 8px 2px rgb(133, 133, 38);
     max-width: 500px;
-    margin: 0 auto 0 10px;
     transition: 0.56s;
     color: white;
     padding: 30px ;
@@ -842,8 +732,103 @@ textarea.form__input
     background: white;
 }
 
-.section
+
+
+.contact_info
 {
-    display: flex;
+    box-shadow: 0 0 8px 2px rgb(133, 133, 38);
+    width: 500px;
+    transition: 0.56s;
+    color: white;
+    padding: 30px ;
+    height: 800px;
 }
 
+.contact_info:hover
+{
+    box-shadow: 0px 0px 20px 3px yellow;
+}
+
+.contact_info h3
+{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.wrapper
+{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.name_company i
+{
+    color: white;
+    font-size: 34px;
+}
+
+.name_company
+{
+    display: flex;
+    gap: 15px;
+}
+
+.name_company p
+{
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.number
+{
+    display: flex;
+    gap: 15px;
+}
+
+.number i
+{
+    color: white;
+    font-size: 34px;
+}
+
+.number p
+{
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.mail
+{
+    display: flex;
+    gap: 15px;
+}
+
+.mail i
+{
+    color: white;
+    font-size: 34px;
+}
+
+.mail p
+{
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
