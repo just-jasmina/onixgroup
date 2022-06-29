@@ -163,8 +163,8 @@
 
 .header_content a:hover
 {
-    color: rgb(255, 0, 0);
-    border: 1px solid rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .liner
@@ -441,6 +441,8 @@
     padding-bottom: 50px;
 }
 
+
+ 
 
 .contact_one iframe
 {
@@ -739,7 +741,10 @@ textarea.form__input
     transition: 0.56s;
     color: white;
     padding: 30px ;
-    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 690px;
 }
 
 .contact_info:hover
@@ -829,4 +834,22 @@ textarea.form__input
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
+}
+
+.internet
+{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.internet i
+{
+    font-size: 40px;
+} 
+
+.img img
+{
+    height: 250px;
 }
