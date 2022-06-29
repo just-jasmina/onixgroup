@@ -28,6 +28,17 @@
         border: 1px solid yellow;
         height: 250px;
     }
+
+    .header_nav-list
+    {
+        gap: 15px;
+        display: flex;
+    }
+
+    .lenguige
+    {
+        padding-left: 50px;
+    }
     
 }
 
@@ -55,7 +66,7 @@
     .burger
     {
         display: block;
-        padding:35px 20px 15px 20px ;
+        padding:35px 20px 15px 20px;
     }
 
 
@@ -91,32 +102,6 @@
         {
             padding: 0 60px;
         }
-
-
-    .contact h1
-    {
-        padding-bottom: 10px;
-        border-bottom: 2px solid yellow;
-    }
-
-    .contact_one
-    {
-        display: flex;
-        align-items: center;
-    }
-
-    .contact_info
-    {
-        width: 400px;
-        position: relative;
-        margin-bottom: 20px;
-        padding: 20px 15px ;
-    }
-
-    .info
-    {
-    padding-left: 100px;
-    }
 
     .contact_one iframe
     {
@@ -157,6 +142,11 @@
         max-width: 450px;
     }
 
+    .contact_info
+    {
+        max-width: 450px;
+    }
+
 }
 
 @media (max-width:600px)
@@ -168,13 +158,6 @@
         justify-content: center;
         padding: 0 30px;
     }
-    
-    .header_list
-    {
-        height: 65vh;
-    }
-    
-    
 } 
 
 @media (max-width:520px) 
@@ -233,8 +216,19 @@
         align-items: center;
         justify-content: center;
         max-width: 350px;
-        margin: 0 auto 0 0;
         }
+
+        .contact_info
+    {
+        max-width: 350px;
+    }
+
+    .contact_one
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
 }
 
@@ -247,6 +241,8 @@
     height: 400px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     }
 
     .form
@@ -255,7 +251,11 @@
     align-items: center;
     justify-content: center;
     max-width: 250px;
-    margin: 0 auto 0 0;
+    }
+
+    .contact_info
+    {
+        max-width: 250px;
     }
 }
 
@@ -275,5 +275,11 @@
             margin-bottom: 30px;
             font-family: SI;
             text-align: center;
+        }
+
+        .mail
+        {
+            display: flex;
+            flex-wrap: wrap;
         }
 } 
