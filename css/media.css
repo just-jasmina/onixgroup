@@ -163,6 +163,11 @@
 @media (max-width:520px) 
 
 {
+    .img img
+    {
+        height: 150px;
+    }
+
         .header_content h1
         {
             font-size: 44px;
@@ -237,25 +242,30 @@
 {
     .contact_one iframe
     {
-    width: 250px;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+        width: 250px;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
     .form
     {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 250px;
     }
 
     .contact_info
     {
         max-width: 250px;
+    }
+
+    .img img
+    {
+        height: 150px;
     }
 }
 
