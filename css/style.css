@@ -844,10 +844,17 @@ textarea.form__input
 }
 
 
-.internet i
+.internet a
 {
+    color: white;
+    transition: 0.5s;
     font-size: 40px;
 } 
+
+.internet a:hover
+{
+    color: yellow;
+}
 
 .img img
 {
