@@ -73,6 +73,8 @@
     .burger:hover ~ .header_nav-list
     {
         transform: translateX(0%);
+        font-size: 20px;
+        font-family: SR;
     }
 
     .course_link
