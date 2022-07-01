@@ -54,9 +54,10 @@
 .header_list
 {
     height: 55vh;
-    background-position: center;
     background-attachment: fixed !important;
-    background: url(../img/ClumsyCostlyHeifer-size_restricted.gif);
+    background-position: center;
+    background: url(../img/giphy.gif);
+    background-size: cover;
 }
 
 .header_nav-list-link:hover
