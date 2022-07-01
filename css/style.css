@@ -197,6 +197,12 @@
     opacity: 1;
 }
 
+.contact_one
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .course_link
 {
